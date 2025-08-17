@@ -44,10 +44,10 @@ The ALU is designed using fundamental logic gates. The arithmetic unit is built 
   git clone [ALU](https://github.com/szyfrowac/4-Bit-ALU/)
 ```
 
-2. Open the project in a Verilog/VHDL simulator (like ModelSim, Vivado, or an online tool like EDA Playground).
+2. Open the project in a Verilog simulator (like ModelSim, Vivado, or an online tool like EDA Playground).
 3. Compile the source files (alu.v, testbench.v).
 4. Run the simulation using the provided testbench file (testbench.v).
-5. Observe the waveform to verify that the output Y and flags (CarryOut, Zero) are correct for all opcode combinations.
+5. Observe the waveform to verify that the output Y and flags (CarryOut) are correct for all opcode combinations.
 
 ## 🧑‍💻 Author
 Bala Phanikar Challa - [szyfrowac](https://github.com/szyfrowac/)
