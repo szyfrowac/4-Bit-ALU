@@ -1,5 +1,5 @@
 # **4-Bit Arithmetic Logic Unit (ALU)**
-A 4-bit ALU designed in Verilog/VHDL that performs basic arithmetic and logical operations on two 4-bit inputs.
+A 4-bit ALU designed in Verilog that performs basic arithmetic and logical operations on two 4-bit inputs.
 ![4 Bit ALU](https://github.com/szyfrowac/4-Bit-ALU/blob/main/4-Bit-ALU.png)
 
 ## 📋 Features
