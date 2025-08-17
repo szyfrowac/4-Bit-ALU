@@ -1,6 +1,6 @@
 # **4-Bit Arithmetic Logic Unit (ALU)**
 A 4-bit ALU designed in Verilog that performs basic arithmetic and logical operations on two 4-bit inputs.
-![4 Bit ALU](https://github.com/szyfrowac/4-Bit-ALU/blob/main/4-Bit-ALU.png)
+![4 Bit ALU](https://github.com/szyfrowac/4-Bit-ALU/blob/main/logisim-schematic.png)
 
 ## 📋 Features
 This ALU can perform the following operations:
@@ -36,6 +36,8 @@ The operation of the ALU is controlled by a 2-bit opcode (S1, S0). Based on the 
 
 ## 🛠️ Implementation Details
 The ALU is designed using fundamental logic gates. The arithmetic unit is built around a 4-bit full adder, which is also used for subtraction via 2's complement. The logical unit consists of basic gates (AND, OR). A multiplexer, controlled by the opcode, selects the final output from each of the arithmetic or logical unit.
+![Waveform](https://github.com/szyfrowac/4-Bit-ALU/blob/main/waveform.png) 
+
 
 ## 💻 How to Simulate
 1. Clone the repository:
